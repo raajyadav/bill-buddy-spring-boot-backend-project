@@ -6,8 +6,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: Bholahi@123
-    url: jdbc:mysql://localhost:3306/bill_buddy
-    username: root
+    url: jdbc:mysql://dbsraj.mysql.database.azure.com/bill_buddy
+    username: raj
   jpa:
     hibernate:
       ddl-auto: update
